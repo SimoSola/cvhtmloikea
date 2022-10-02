@@ -3,6 +3,38 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.header {
+      background-color: black;
+      color: whitesmoke;
+      padding: 0;
+      text-align: center;}
+.topnav {
+      position: relative;
+      overflow: visible;
+      background-color: black;}
+.topnav a {
+      float: left;
+      display: block;
+      color: whitesmoke;
+      padding: 14px 16px;
+      text-decoration: none;} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+}  
+
 * {
   box-sizing: border-box;
 }
@@ -46,15 +78,23 @@ body {
 }
 </style>
 </head>
+<header><nav class="topnav"; class="topnav a">
+    <ul>
+      <li><a href="testi.html">Etusivu</a></li>
+      <li><a href="work.html">Työkokemus</a></li>
+      <li><a href="opinnot.html">Opinnot ja koulutukset</a></li>
+      <li><a href="osaaminen.html">Osaaminen</a></li>
+    </ul>
+  </nav></header>
 <body>
 
-<h2>Responsive Column Cards</h2>
-<p>Resize the browser window to see the effect.</p>
+<h2 style= "text-align: center"> Minä</h2>
+<p style= "text-align: center">Lorem</p>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <h3>Card 1</h3>
+      <h3>Luonne</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -62,7 +102,7 @@ body {
 
   <div class="column">
     <div class="card">
-      <h3>Card 2</h3>
+      <h3>Kiinnostukset</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -70,7 +110,7 @@ body {
   
   <div class="column">
     <div class="card">
-      <h3>Card 3</h3>
+      <h3>Harrastukset</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>

@@ -1,88 +1,164 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+.header {
+      background-color: black;
+      color: whitesmoke;
+      padding: 0;
+      text-align: center;}
+.topnav {
+      position: relative;
+      overflow: visible;
+      background-color: black;}
+.topnav a {
+      float: left;
+      display: block;
+      color: whitesmoke;
+      padding: 14px 16px;
+      text-decoration: none;} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Float four columns side by side */
-.column {
+li {
   float: left;
-  width: 25%;
-  padding: 0 10px;
 }
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+}  
+        * {
+            box-sizing: border-box;
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-</style>
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            margin: 3mm;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
+<header><nav class="topnav"; class="topnav a">
+    <ul>
+      <li><a href="testi.html">Etusivu</a></li>
+      <li><a href="me.html">Minä</a></li>
+      <li><a href="opinnot.html">Opinnot ja koulutukset</a></li>
+      <li><a href="osaaminen.html">Osaaminen</a></li>
+    </ul>
+  </nav></header>
 <body>
-<h2>Responsive Column Cards</h2>
-<p>Resize the browser window to see the effect.</p>
+    <h2 style="text-align: center";>Työkokemus</h2>
+    <p style="text-align: center";>Omaan vahvan kokemuksen asiakaspalvelusta ja itselleni on erittäin tärkeää, että asiakas saa aina laadukasta ja tarpeisiin vastaavaa palvelua. Tyytyväinen asiakas on, minkä tahansa palvelun paras mainos ja asiakaskeskeisyys tulee olla jokaisen asiakaspalvelijan tärkein työtä ohjaava tekijä. Asiakaskeskeinen palvelu syntyy mielestäni kokonaisuuksien hallinnasta. Laadukaskaan asiakaspalvelu ei yksinään kanna pitkälle, mikäli toiminnan muissa osa-alueissa ei ylletä vastaamaan asiakkaiden tarpeisiin. Myymäläpäällikkönä ja kauppiaana opin kiinnittämään huomion pieniinkin yksityiskohtiin liiketilan siisteydestä asiakasviestinnän nyansseihin.</p>
 
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <h3>Card 1</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h3>Wellbeing365 Oy / Kyyhkylän kartano</h3>
+                <p>9/21-8/22</p>
+                <p>Myynti- ja markkinointiassistentti</p>
+                <p>Tapahtumatyöntekijä</p>
+                <p>Tarpeen vaatiessa sali-, kokous- ja kahvilatarjoilija, apulaiskokki, astiahuolto sekä
+                   kalusteasentaja</p>
+            </div>
+        </div>
 
-  <div class="column">
-    <div class="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-</div>
+        <div class="column">
+            <div class="card">
+                <h3>Barona Horeca Oy (Mikkeli)</h3>
+                <p>7-9/21</p>
+                <p>Baariapulainen</p>
+                <p>Saliapulainen</p>
+                <p>Kahvilatarjoilija</p>
+                <p>Astiahuolto</p> 
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Suomen Kansallismuseo</h3>
+                <p>08–11/2018 ja 08-10/2019</p>
+                <p>Tapahtuma-avustaja ja museovalvonta (keikkatyö)</p>
+                <p>Tapahtumien kasaus, toteutus ja purku</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+                <h3>Oasis Food Oy</h3>
+                <p>07/2013 – 06/2016</p>
+                <p>Kauppias (Punnitse & Säästä-ketju)</p>
+                <p>Asiakassuhteet ja sidosryhmät</p>
+                <p>Markkinointi</p>
+                <p>Talous- ja henkilöstöhallinto</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Deliservice Punnitse & Säästä Oy</h3>
+                <p>08/2010 – 06/2013</p>
+                <p>Myyjä ja myymäläpäällikkö</p>
+                <p>Myynti</p>
+                <p>Asiakaspalvelu</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>1995-2020</h3>
+                <p>Lastenhoitaja</p>
+                <p>Tutkimustallentaja</p>
+                <p>Siistijä</p>
+                <p>Infotaulujen sisällöntuotto</p>
+                <p>Lounasravintolan työntekijä</p>
+                <p>Vähittäiskaupan kassa</p>
+            </div>
+        </div>    
 
 </body>
+
 </html>

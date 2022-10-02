@@ -3,6 +3,38 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+    .header {
+      background-color: black;
+      color: whitesmoke;
+      padding: 0;
+      text-align: center;}
+.topnav {
+      position: relative;
+      overflow: visible;
+      background-color: black;}
+.topnav a {
+      float: left;
+      display: block;
+      color: whitesmoke;
+      padding: 14px 16px;
+      text-decoration: none;} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+}  
+
 * {
   box-sizing: border-box;
 }
@@ -14,7 +46,7 @@ body {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
 }
 
@@ -46,41 +78,62 @@ body {
 }
 </style>
 </head>
+<header><nav class="topnav"; class="topnav a">
+    <ul>
+      <li><a href="testi.html">Etusivu</a></li>
+      <li><a href="me.html">Minä</a></li>
+      <li><a href="work.html">Työkokemus</a></li>
+      <li><a href="osaaminen.html">Osaaminen</a></li>
+    </ul>
+  </nav></header>
 <body>
 
-<h2>Responsive Column Cards</h2>
-<p>Resize the browser window to see the effect.</p>
+<h2 style= "text-align: center";>Opinnot ja koulutukset</h2>
+<p style= "text-align: center; width: 99%">Restonomiopintojen aikana sain vahvan tiedon niin vapaa-ajan kuin liikematkustamisen kehittämis-menetelmistä. Opintojen keskiössä oli palvelumuotoilu, jota käytin myös kehittämismenetelmänä opinnäytetyössäni. Työn aiheena oli asiakaslähtöiset tukipalvelut lisäarvon tuottajina hotellin kokouspalveluissa. Tutkimuksen aikana sain vankan ymmärryksen kokouspalveluiden palvelupaketoinnista asiakaskeskeisiksi ja taloudellisiksi. Opintojen aikana hotellin kokouspalveluita kehitin myös kahdella erillisellä opintojaksolla. Palvelumuotoilun lisäksi opinnoissa keskityttiin vahvasti asiakassuhteiden ja sidosryhmien hallintaan sekä kehittämiseen.</p>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <h3>Card 1</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>KasvuEsedu Oy / 9/21-</h3>
+      <h4>DigiMuuntamo # 1.0</h4>
+      <p>Ohjelmoinnin perusteet</p>
+      <p>Tiimitaidot ja projektiosaaminen</p>
+      <p>Verkkosivujen toteutus</p>
+      <p>Sisällöntuotanto - kuvankäsittely, videoeditointi ja tekstituotanto</p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>Lappia Koulutus Oy / 5/21</h3>
+      <h4>Lappi tutuksi palvelualan työstä kiinnostuneille!</h4>
+      <p>Elämysten tuottaminen matkailijoille ilman tuotantovälineitä</p> 
+      <p>Lapin alueet ja kulttuurit, perinteet ja ihmiset</p>
+      <p>Lapin luonto, eläimet, kasvillisuus, yrtit ja marjat</p>
+      <p>Asiakaspalvelu ja kokonaisvaltainen hyvinvointi-ajattelu</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>Laurea Amk / 8/2017-11/2020</h3>
+      <h4>Matkailu- ja palveluliiketoiminnan koulutus / restonomi</h4>
+      <p>Opintojen aikana olen saanut laajan tietämyksen ja käytännön taidot kannattavien asiakaskeskeisten
+         palveluiden kehittämiseen ja toteuttamiseen käyttäen markkinointi-, palvelumuotoilu- ja
+         asiakkuusjohtamismenetelmiä työvälineinä.</p>
+      <p><b>Opintoprojekteja</b></p> 
+        <p>Elämyksellinen majoituspalvelukonsepti Espoon saaristoon</p> 
+        <p>Toimintaympäristöanalyysi (PESTEL) Tjäreborg Oy:lle</p>
+        <p>Martinlaakson kehittämisprojekti Vantaan kaupungille</p> 
+        <p>Tuottavan teemaravintolan suunnittelu ja toteutus</p> 
+        <p>Seniori365.fi -sivuston sisällöntuotto</p>
+        <p>Ruokamatkailureitti Päijät-Hämeeseen</p> 
+        <p>Nenäpäivä -tapahtuma kauppakeskus Selloon</p>
+      <p><b>Työharjoittelut</b></p>
+        <p>Visit Espoo (Matkailuneuvonta, sosiaalisen median päivitys ja sisällöntuotto, matkailu- ja
+           kokous-kongressialan tapahtumissa avustaminen)</p>
+        <p>Suomen Kansallismuseo (Tapahtuma-avustaja, tapahtumien
+           suunnittelu, toteutus, arviointi ja markkinointi)</p>   
     </div>
   </div>
 </div>
